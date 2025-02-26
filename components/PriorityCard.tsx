@@ -88,8 +88,9 @@ const PriorityCard: React.FC<PriorityCardProps> = ({
           alt={label}
           width={64}
           height={64}
-          className="w-16 h-16 object-contain"
+          className="w-16 h-16 object-contain select-none"
           priority={priority}
+          draggable={false}
         />
       </div>
       {/* Priority label below the card */}
